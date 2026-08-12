@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sb-base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe6d6"/>
+      <stop offset="55%" stop-color="#e6dac4"/>
+      <stop offset="100%" stop-color="#d9c9ab"/>
+    </linearGradient>
+    <linearGradient id="sb-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sb-base)"/>
+  <polygon points="0,0 700,0 200,1200 0,1200" fill="url(#sb-light)"/>
+  <polygon points="1600,0 1600,500 900,1200 700,1200" fill="#ffffff" opacity="0.12"/>
+  <ellipse cx="1250" cy="200" rx="380" ry="380" fill="#ffffff" opacity="0.15"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <radialGradient id="spf-bg" cx="50%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#eef6fa"/>
+      <stop offset="55%" stop-color="#dbeaf1"/>
+      <stop offset="100%" stop-color="#c7dfe9"/>
+    </radialGradient>
+    <linearGradient id="spf-tube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6f1f5"/>
+    </linearGradient>
+    <linearGradient id="spf-sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe9b0"/>
+      <stop offset="100%" stop-color="#f4c96a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="520" fill="url(#spf-bg)"/>
+  <circle cx="300" cy="95" r="42" fill="url(#spf-sun)" opacity="0.9"/>
+  <g stroke="#f4c96a" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="300" y1="30" x2="300" y2="10"/>
+    <line x1="352" y1="47" x2="366" y2="34"/>
+    <line x1="234" y1="47" x2="220" y2="34"/>
+    <line x1="365" y1="95" x2="385" y2="95"/>
+  </g>
+  <ellipse cx="200" cy="450" rx="105" ry="17" fill="#a9c7d6" opacity="0.4"/>
+  <path d="M140 210 q60 -30 120 0 v190 q-60 30 -120 0 z" fill="url(#spf-tube)" stroke="#d3e5ec" stroke-width="1.5"/>
+  <ellipse cx="200" cy="210" rx="60" ry="16" fill="#f4fafc" stroke="#d3e5ec"/>
+  <path d="M182 155 q18 -16 36 0 v45 h-36 z" fill="#eef6fa" stroke="#cfe0e8"/>
+  <rect x="176" y="118" width="48" height="42" rx="12" fill="#cfe0e8"/>
+  <rect x="160" y="270" width="80" height="90" rx="4" fill="#fbfeff" opacity="0.9"/>
+  <text x="200" y="298" text-anchor="middle" font-family="'Playfair Display', serif" font-size="14" letter-spacing="1.5" fill="#25424f">VESPER</text>
+  <line x1="178" y1="308" x2="222" y2="308" stroke="#c9a96a" stroke-width="0.8"/>
+  <text x="200" y="328" text-anchor="middle" font-family="'Jost', sans-serif" font-size="10" letter-spacing="1" fill="#3a5c69">SPF 50</text>
+  <text x="200" y="343" text-anchor="middle" font-family="'Jost', sans-serif" font-size="6.5" letter-spacing="1" fill="#5c7986">PA+++ BROAD SPECTRUM</text>
+</svg>
