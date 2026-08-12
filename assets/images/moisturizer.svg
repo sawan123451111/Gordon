@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <radialGradient id="mo-bg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#faf5ec"/>
+      <stop offset="55%" stop-color="#f1e6d4"/>
+      <stop offset="100%" stop-color="#e8d9c2"/>
+    </radialGradient>
+    <linearGradient id="mo-jar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf9"/>
+      <stop offset="100%" stop-color="#efe4d2"/>
+    </linearGradient>
+    <linearGradient id="mo-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e7c988"/>
+      <stop offset="50%" stop-color="#c9a96a"/>
+      <stop offset="100%" stop-color="#a9824c"/>
+    </linearGradient>
+    <radialGradient id="mo-cream" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fffefb"/>
+      <stop offset="100%" stop-color="#f3e9d8"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="520" fill="url(#mo-bg)"/>
+  <ellipse cx="200" cy="440" rx="110" ry="18" fill="#c9a96a" opacity="0.18"/>
+  <path d="M270 320 q30 40 5 70 q-15 18 -45 10 q20 -10 25 -32 q4 -22 15 -48 z" fill="#fff" opacity="0.55"/>
+  <rect x="110" y="230" width="180" height="150" rx="24" fill="url(#mo-jar)" stroke="#e3d3b8" stroke-width="1.5"/>
+  <ellipse cx="200" cy="230" rx="90" ry="20" fill="url(#mo-cream)" stroke="#e9dcc4"/>
+  <path d="M170 224 q30 -22 60 0 q-28 12 -60 0 z" fill="#fffdf8"/>
+  <rect x="118" y="150" width="164" height="70" rx="16" fill="url(#mo-gold)"/>
+  <ellipse cx="200" cy="150" rx="82" ry="16" fill="#dab876"/>
+  <rect x="150" y="290" width="100" height="70" rx="4" fill="#fffef9" opacity="0.9"/>
+  <text x="200" y="318" text-anchor="middle" font-family="'Playfair Display', serif" font-size="17" letter-spacing="1.5" fill="#8a6a2f">VESPER</text>
+  <text x="200" y="334" text-anchor="middle" font-family="'Jost', sans-serif" font-size="6.3" letter-spacing="0.8" fill="#5c503e">HYDRATING</text>
+  <text x="200" y="344" text-anchor="middle" font-family="'Jost', sans-serif" font-size="6.3" letter-spacing="0.8" fill="#5c503e">MOISTURIZER</text>
+  <path d="M255 405 q25 -14 50 4 q-18 4 -28 18 q-8 -14 -22 -22 z" fill="#fffdf8" opacity="0.85"/>
+</svg>

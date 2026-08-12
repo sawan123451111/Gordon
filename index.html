@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VESPER — Rituals for Radiant Skin</title>
+<meta name="description" content="VESPER is premium, minimalist skincare — thoughtfully formulated rituals designed to hydrate, brighten, repair and protect.">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <nav class="nav__links nav__links--left">
+      <a href="#collection">Shop</a>
+      <a href="#ritual">Ritual</a>
+      <a href="#story">About</a>
+    </nav>
+
+    <a href="#top" class="nav__logo">VESPER</a>
+
+    <nav class="nav__links nav__links--right">
+      <a href="#reviews">Reviews</a>
+      <a href="#footer">Contact</a>
+      <a href="#collection" class="nav__cart" aria-label="Cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero__bg" style="background-image:url('assets/images/hero-bg.svg')" data-parallax="0.15"></div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <img class="hero__product hero__product--1" src="assets/images/cleanser.svg" alt="" data-parallax="0.35">
+      <img class="hero__product hero__product--2" src="assets/images/moisturizer.svg" alt="" data-parallax="0.22">
+      <img class="hero__product hero__product--3" src="assets/images/eye-serum.svg" alt="" data-parallax="0.5">
+    </div>
+
+    <div class="hero__content reveal">
+      <p class="eyebrow">VESPER SKINCARE</p>
+      <h1 class="hero__headline">Rituals for<br>Radiant Skin.</h1>
+      <p class="hero__sub">Thoughtfully formulated skincare designed to hydrate, brighten, repair and protect.</p>
+      <div class="hero__actions">
+        <a href="#collection" class="btn btn--dark">Shop the Collection</a>
+        <a href="#story" class="btn btn--ghost">Discover Vesper</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span></span>Scroll</div>
+  </section>
+
+  <!-- ================= PRODUCT COLLECTION ================= -->
+  <section class="section products" id="collection">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">The Collection</p>
+        <h2>Essentials for Every Ritual</h2>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/cleanser.svg" alt="VESPER Gentle Facial Cleanser, 200ml pump bottle">
+          </a>
+          <div class="product-card__body">
+            <h3>Gentle Facial Cleanser</h3>
+            <p class="product-card__meta">Aloe Vera &amp; Chamomile · 200ml / 6.7 fl. oz.</p>
+            <p class="product-card__desc">Gentle daily cleansing for all skin types.</p>
+            <div class="product-card__row">
+              <span class="price">$32</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/moisturizer.svg" alt="VESPER Hydrating Moisturizer jar with gold lid, 50ml">
+          </a>
+          <div class="product-card__body">
+            <h3>Hydrating Moisturizer</h3>
+            <p class="product-card__meta">Hyaluronic Acid &amp; Botanical Extracts · 50ml / 1.7 fl. oz.</p>
+            <p class="product-card__desc">Deep hydration for soft, supple-looking skin.</p>
+            <div class="product-card__row">
+              <span class="price">$48</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/eye-serum.svg" alt="VESPER Eye Serum dropper bottle">
+          </a>
+          <div class="product-card__body">
+            <h3>Eye Serum</h3>
+            <p class="product-card__meta">Lightweight targeted eye treatment</p>
+            <p class="product-card__desc">Designed for the delicate under-eye area to help create a refreshed, brighter-looking appearance.</p>
+            <div class="product-card__row">
+              <span class="price">$54</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/vitamin-c-serum.svg" alt="VESPER Vitamin C Brightening Serum amber dropper bottle with orange slices">
+          </a>
+          <div class="product-card__body">
+            <h3>Vitamin C Brightening Serum</h3>
+            <p class="product-card__meta">Vitamin C–powered brightening treatment</p>
+            <p class="product-card__desc">Designed to improve the appearance of dull, uneven-looking skin.</p>
+            <div class="product-card__row">
+              <span class="price">$58</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/spf50.svg" alt="VESPER Daily SPF 50 Sunscreen tube">
+          </a>
+          <div class="product-card__body">
+            <h3>Daily SPF 50 Sunscreen</h3>
+            <p class="product-card__meta">SPF 50 · PA+++ · Broad Spectrum</p>
+            <p class="product-card__desc">Daily protection with a lightweight, luxury feel.</p>
+            <div class="product-card__row">
+              <span class="price">$38</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/toner.svg" alt="VESPER Hydrating Face Toner glass bottle">
+          </a>
+          <div class="product-card__body">
+            <h3>Hydrating Face Toner</h3>
+            <p class="product-card__meta">Lightweight hydrating toner</p>
+            <p class="product-card__desc">Refreshes and prepares skin for the next steps of your routine.</p>
+            <div class="product-card__row">
+              <span class="price">$36</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card product-card--dark reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/overnight-repair.svg" alt="VESPER Overnight Repair Cream, black jar with gold lid, 50ml">
+          </a>
+          <div class="product-card__body">
+            <h3>Overnight Repair Cream</h3>
+            <p class="product-card__meta">Midnight Flora &amp; Ceramides · 50ml / 1.7 fl. oz.</p>
+            <p class="product-card__desc">Rich nighttime treatment designed to support the skin barrier overnight.</p>
+            <div class="product-card__row">
+              <span class="price">$68</span>
+              <a href="#" class="btn btn--line btn--sm btn--light">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <a href="#" class="product-card__media">
+            <img src="assets/images/lip-treatment.svg" alt="VESPER Nourishing Lip Treatment, rose gold tube">
+          </a>
+          <div class="product-card__body">
+            <h3>Nourishing Lip Treatment</h3>
+            <p class="product-card__meta">Hydrating lip treatment</p>
+            <p class="product-card__desc">Designed to nourish and soften dry-looking lips.</p>
+            <div class="product-card__row">
+              <span class="price">$24</span>
+              <a href="#" class="btn btn--line btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED COLLECTION ================= -->
+  <section class="section featured" id="featured">
+    <div class="container">
+      <div class="featured__grid">
+        <div class="featured__text reveal">
+          <p class="eyebrow">The Edit</p>
+          <h2>Your Skin,<br>In Its Vesper Era.</h2>
+          <p class="featured__copy">Four essentials, one considered ritual. Formulated to work in concert — clinical actives, editorial restraint, and skin that looks like it's doing nothing at all.</p>
+          <a href="#collection" class="btn btn--dark">Shop All Products</a>
+        </div>
+
+        <div class="featured__composition reveal">
+          <img class="featured__img featured__img--1" src="assets/images/moisturizer.svg" alt="VESPER Hydrating Moisturizer">
+          <img class="featured__img featured__img--2" src="assets/images/vitamin-c-serum.svg" alt="VESPER Vitamin C Brightening Serum">
+          <img class="featured__img featured__img--3" src="assets/images/cleanser.svg" alt="VESPER Gentle Facial Cleanser">
+          <img class="featured__img featured__img--4" src="assets/images/overnight-repair.svg" alt="VESPER Overnight Repair Cream">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKINCARE RITUAL ================= -->
+  <section class="section ritual" id="ritual">
+    <div class="container">
+      <div class="section__head reveal section__head--center">
+        <p class="eyebrow">The Ritual</p>
+        <h2>A Routine, Refined.</h2>
+      </div>
+
+      <div class="ritual__steps">
+        <div class="ritual__line" aria-hidden="true"></div>
+
+        <div class="ritual__step reveal">
+          <span class="ritual__num">01</span>
+          <h3>Cleanse</h3>
+          <p class="ritual__product">Gentle Facial Cleanser</p>
+          <p class="ritual__desc">Wash away the day without stripping the skin's natural balance.</p>
+        </div>
+
+        <div class="ritual__step reveal">
+          <span class="ritual__num">02</span>
+          <h3>Treat</h3>
+          <p class="ritual__product">Vitamin C Serum · Eye Serum</p>
+          <p class="ritual__desc">Targeted actives for brightness and a refreshed, awake look.</p>
+        </div>
+
+        <div class="ritual__step reveal">
+          <span class="ritual__num">03</span>
+          <h3>Hydrate</h3>
+          <p class="ritual__product">Hydrating Toner + Moisturizer</p>
+          <p class="ritual__desc">Layered moisture that leaves skin soft, supple and comfortable.</p>
+        </div>
+
+        <div class="ritual__step reveal">
+          <span class="ritual__num">04</span>
+          <h3>Protect</h3>
+          <p class="ritual__product">Daily SPF 50 Sunscreen</p>
+          <p class="ritual__desc">Lightweight, broad-spectrum protection to close every ritual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BRAND STORY ================= -->
+  <section class="section story" id="story" style="background-image:url('assets/images/story-bg.svg')">
+    <div class="container story__inner reveal">
+      <p class="eyebrow">The Philosophy</p>
+      <h2>Less Noise.<br>More Skin.</h2>
+      <p class="story__copy">VESPER is built around intentional skincare rituals — refined formulas, considered ingredients and everyday essentials designed to make healthy-looking skin feel effortless.</p>
+      <a href="#ritual" class="btn btn--ghost btn--dark-ghost">Explore the Ritual</a>
+    </div>
+  </section>
+
+  <!-- ================= INGREDIENTS / PHILOSOPHY ================= -->
+  <section class="section philosophy">
+    <div class="container">
+      <div class="philosophy__grid">
+        <div class="philosophy__card reveal">
+          <span class="philosophy__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M24 6c8 10 14 18 14 26a14 14 0 0 1-28 0c0-8 6-16 14-26z"/></svg>
+          </span>
+          <h3>Hydrate</h3>
+          <p>Deep, lasting moisture for comfortable, supple-looking skin.</p>
+        </div>
+        <div class="philosophy__card reveal">
+          <span class="philosophy__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="24" cy="24" r="9"/><g stroke-linecap="round"><line x1="24" y1="4" x2="24" y2="10"/><line x1="24" y1="38" x2="24" y2="44"/><line x1="4" y1="24" x2="10" y2="24"/><line x1="38" y1="24" x2="44" y2="24"/><line x1="9" y1="9" x2="13" y2="13"/><line x1="35" y1="35" x2="39" y2="39"/><line x1="39" y1="9" x2="35" y2="13"/><line x1="13" y1="35" x2="9" y2="39"/></g></svg>
+          </span>
+          <h3>Brighten</h3>
+          <p>Targeted formulas designed to revive dull-looking skin.</p>
+        </div>
+        <div class="philosophy__card reveal">
+          <span class="philosophy__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M24 44s16-9 16-23V9l-16-5-16 5v12c0 14 16 23 16 23z"/></svg>
+          </span>
+          <h3>Repair</h3>
+          <p>Barrier-focused nighttime care for healthier-looking skin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOCIAL PROOF ================= -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__head reveal section__head--center">
+        <p class="eyebrow">In Their Words</p>
+        <h2>Loved by Skin, Everywhere.</h2>
+      </div>
+
+      <div class="reviews__grid">
+        <figure class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“The entire routine feels luxurious without being complicated. My skin has never looked calmer.”</blockquote>
+          <figcaption>— Amelia R., Verified Buyer</figcaption>
+        </figure>
+        <figure class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“The Vitamin C serum is stunning. Subtle scent, fast absorbing, and my skin looks so much brighter.”</blockquote>
+          <figcaption>— Noor K., Verified Buyer</figcaption>
+        </figure>
+        <figure class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“Overnight Repair Cream is the one product I can't live without. I wake up with skin that looks rested.”</blockquote>
+          <figcaption>— Josephine L., Verified Buyer</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FINAL CTA ================= -->
+  <section class="section final-cta">
+    <div class="container final-cta__inner reveal">
+      <h2>Make skincare<br>your ritual.</h2>
+      <p>Discover the VESPER collection.</p>
+      <a href="#collection" class="btn btn--light">Shop Vesper</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="footer">
+  <div class="container footer__inner">
+
+    <div class="footer__brand">
+      <a href="#top" class="footer__logo">VESPER</a>
+      <p>Rituals for radiant skin.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M15 3v9.5a4 4 0 1 1-4-4"/><path d="M15 3c0 2.5 2 4.5 4.5 4.5"/></svg>
+        </a>
+        <a href="#" aria-label="Pinterest">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M9.5 18c1-3 1.5-5 1.5-7a3 3 0 1 1 3 3c-.7 0-1.3-.2-1.8-.6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer__col">
+      <h4>Shop</h4>
+      <a href="#collection">All Products</a>
+      <a href="#featured">The Edit</a>
+      <a href="#ritual">Skincare Ritual</a>
+    </nav>
+
+    <nav class="footer__col">
+      <h4>Company</h4>
+      <a href="#story">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#footer">Contact</a>
+    </nav>
+
+    <nav class="footer__col">
+      <h4>Support</h4>
+      <a href="#">FAQ</a>
+      <a href="#">Shipping &amp; Returns</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="footer__newsletter">
+      <h4>Join the VESPER ritual.</h4>
+      <p>Sign up for early access, rituals and offers.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="email" required placeholder="Email address" aria-label="Email address">
+        <button type="submit">Join</button>
+      </form>
+      <p class="newsletter-note" id="newsletterNote" role="status" aria-live="polite"></p>
+    </div>
+
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© <span id="year"></span> VESPER. All rights reserved.</p>
+    <p>Crafted for skin that speaks quietly.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
