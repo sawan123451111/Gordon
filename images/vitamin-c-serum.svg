@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <radialGradient id="bgVC" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#3a2a12"/>
+      <stop offset="55%" stop-color="#1c140a"/>
+      <stop offset="100%" stop-color="#0a0704"/>
+    </radialGradient>
+    <linearGradient id="glassVC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a3f12"/>
+      <stop offset="45%" stop-color="#c2712a"/>
+      <stop offset="55%" stop-color="#c2712a"/>
+      <stop offset="100%" stop-color="#5c2f0e"/>
+    </linearGradient>
+    <linearGradient id="capVC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a6a2a"/>
+      <stop offset="50%" stop-color="#e9cd82"/>
+      <stop offset="100%" stop-color="#7a5a1f"/>
+    </linearGradient>
+    <linearGradient id="goldTextVC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d8b568"/>
+      <stop offset="100%" stop-color="#f3dfa3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgVC)"/>
+  <circle cx="180" cy="760" r="180" fill="#e07a29" opacity="0.13"/>
+  <circle cx="640" cy="240" r="140" fill="#e07a29" opacity="0.10"/>
+  <!-- dropper cap -->
+  <rect x="368" y="120" width="64" height="150" rx="10" fill="url(#capVC)"/>
+  <rect x="358" y="255" width="84" height="26" rx="6" fill="url(#capVC)"/>
+  <!-- bottle neck -->
+  <rect x="378" y="281" width="44" height="40" fill="url(#glassVC)"/>
+  <!-- bottle body -->
+  <path d="M330 321 h140 a10 10 0 0 1 10 10 v430 a30 30 0 0 1 -30 30 h-100 a30 30 0 0 1 -30 -30 v-430 a10 10 0 0 1 10 -10 z" fill="url(#glassVC)"/>
+  <rect x="330" y="321" width="10" height="470" fill="#ffffff" opacity="0.18"/>
+  <!-- label -->
+  <rect x="300" y="470" width="200" height="230" rx="4" fill="#c99a4a" opacity="0.95"/>
+  <rect x="300" y="470" width="200" height="230" rx="4" fill="none" stroke="#8a6a2a" stroke-width="2"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="4" fill="#241704">VESPER</text>
+  <line x1="330" y1="558" x2="470" y2="558" stroke="#5c4218" stroke-width="1.5"/>
+  <text x="400" y="600" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#241704">Vitamin C</text>
+  <text x="400" y="632" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#241704">Brightening</text>
+  <text x="400" y="664" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#241704">Serum</text>
+</svg>

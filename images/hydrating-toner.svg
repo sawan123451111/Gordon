@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <radialGradient id="bgTN" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#173028"/>
+      <stop offset="55%" stop-color="#0d1a16"/>
+      <stop offset="100%" stop-color="#08100d"/>
+    </radialGradient>
+    <linearGradient id="glassTN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bfe3d8" stop-opacity="0.25"/>
+      <stop offset="45%" stop-color="#e7f7f1" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#e7f7f1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#bfe3d8" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgTN)"/>
+  <circle cx="220" cy="230" r="150" fill="#7fd4bb" opacity="0.10"/>
+  <circle cx="620" cy="760" r="180" fill="#7fd4bb" opacity="0.08"/>
+  <g transform="rotate(-14 400 500)">
+    <rect x="330" y="180" width="70" height="70" rx="8" fill="url(#glassTN)" stroke="#bfe3d8" stroke-width="1.5" opacity="0.7"/>
+    <path d="M320 250 h180 a14 14 0 0 1 14 14 v460 a26 26 0 0 1 -26 26 h-156 a26 26 0 0 1 -26 -26 v-460 a14 14 0 0 1 14 -14 z" fill="url(#glassTN)" stroke="#cdeee2" stroke-width="1.5"/>
+    <rect x="310" y="420" width="220" height="120" fill="#f4faf8" opacity="0.92"/>
+    <text x="420" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="3" fill="#1f3a32">VESPER</text>
+    <line x1="345" y1="478" x2="495" y2="478" stroke="#7fa89a" stroke-width="1"/>
+    <text x="420" y="505" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#33564a">Hydrating</text>
+    <text x="420" y="528" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#33564a">Face Toner</text>
+  </g>
+  <circle cx="180" cy="640" r="6" fill="#bfe3d8" opacity="0.6"/>
+  <circle cx="600" cy="300" r="8" fill="#bfe3d8" opacity="0.5"/>
+  <circle cx="650" cy="560" r="5" fill="#bfe3d8" opacity="0.6"/>
+  <circle cx="160" cy="380" r="4" fill="#bfe3d8" opacity="0.5"/>
+</svg>
